@@ -36,6 +36,7 @@ def sample_latents(
     model_kwargs: Dict[str, Any],
     guidance_scale: float,
     clip_denoised: bool,
+    use_fp16: bool,
     use_fp32: bool,
     use_karras: bool,
     karras_steps: int,
